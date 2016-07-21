@@ -1,0 +1,25 @@
+
+A first step to create an E-Comm site logins
+
+Admin
+Vendor
+Customer
+
+can register login
+
+Default logins
+- admin@email.com
+- admnpass
+- vendor@email.com
+- password
+- customer@email.com
+- password
+
+New Account for Vendor or Customer
+http://codeigniter.dev/account/register
+
+
+Login url for All
+http://codeigniter.dev/account/login
+
+
