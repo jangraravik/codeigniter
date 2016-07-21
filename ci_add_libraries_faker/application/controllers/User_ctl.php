@@ -39,10 +39,6 @@ class User_ctl extends CI_Controller {
 	{
 		// create a fake reord of user accounts
 		// Values https://github.com/fzaninotto/Faker
-		
-		//echo $this->faker->unique()->userName;
-		//echo $this->faker->imageUrl(200, 200, 'cats', true, 'Faker');
-		//$this->faker->image('uploads',1600,1200);
 		for ($i = 0; $i < $limit; $i++) {         
 			$data = array(
 				'username' => $this->faker->unique()->userName, // get a unique nickname
